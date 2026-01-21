@@ -1,0 +1,14 @@
+{
+    "name": "leadproof/leadproof",
+    "description": "LeadProof - CRM CSV cleaning and normalization tool",
+    "type": "project",
+    "require": {
+        "php": ">=8.0",
+        "dompdf/dompdf": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
